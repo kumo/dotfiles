@@ -357,6 +357,19 @@ you should place your code here."
   ;;(load-file "~/.emacs.d/private/org-books.el")
   ;;(setq org-books-file "~/gtd/books.org")
 
+  ;; stuff that is missing from norang
+  (setq org-startup-indented t)
+  (setq org-cycle-separator-lines 0)
+  (setq org-blank-before-new-entry (quote ((heading)
+                                           (plain-list-item . auto))))
+  (setq org-insert-heading-respect-content nil)
+  (setq org-reverse-note-order nil)
+  (setq org-show-following-heading t)
+  (setq org-show-hierarchy-above t)
+  (setq org-show-siblings (quote ((default))))
+  (setq org-special-ctrl-a/e t)
+  (setq org-special-ctrl-k t)
+  (setq org-yank-adjusted-subtrees t)
  )
 
 ;; Do not write anything past this comment. This is where Emacs will
