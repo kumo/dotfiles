@@ -370,6 +370,19 @@ you should place your code here."
   (setq org-special-ctrl-a/e t)
   (setq org-special-ctrl-k t)
   (setq org-yank-adjusted-subtrees t)
+
+  (setq org-list-demote-modify-bullet (quote (("+" . "-")
+                                              ("*" . "-")
+                                              ("1." . "-")
+                                              ("1)" . "-")
+                                              ("A)" . "-")
+                                              ("B)" . "-")
+                                              ("a)" . "-")
+                                              ("b)" . "-")
+                                              ("A." . "-")
+                                              ("B." . "-")
+                                              ("a." . "-")
+                                              ("b." . "-"))))
  )
 
 ;; Do not write anything past this comment. This is where Emacs will
