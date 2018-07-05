@@ -324,6 +324,11 @@ you should place your code here."
   (require 'org-checklist)
 
   ;; (require 'avy-menu)
+
+  (add-to-list 'load-path "~/.emacs.d/private/local")
+  (require 'beancount)
+  (add-to-list 'auto-mode-alist '("\\.beancount\\'" . beancount-mode))
+
   (setq org-tags-column 0)
   ;;(setq org-tags-column -77)
 
