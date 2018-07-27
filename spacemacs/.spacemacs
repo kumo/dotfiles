@@ -354,11 +354,11 @@ you should place your code here."
 
   ;; thanks to https://lists.gnu.org/archive/html/emacs-orgmode/2010-12/msg00410.html
   ;; Place tags close to the right-hand side of the window
-  (add-hook 'org-finalize-agenda-hook 'place-agenda-tags)
-  (defun place-agenda-tags ()
-    "Put the agenda tags by the right border of the agenda window."
-    (setq org-agenda-tags-column (- 4 (window-width)))
-    (org-agenda-align-tags))
+  ;;(add-hook 'org-finalize-agenda-hook 'place-agenda-tags)
+  ;;(defun place-agenda-tags ()
+  ;;  "Put the agenda tags by the right border of the agenda window."
+  ;;  (setq org-agenda-tags-column (- 4 (window-width)))
+  ;;  (org-agenda-align-tags))
 
   ;;(require 'enlive)
   ;;(load-file "~/.emacs.d/private/org-books.el")
