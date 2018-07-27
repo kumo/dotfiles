@@ -390,6 +390,9 @@ you should place your code here."
                                               ("B." . "-")
                                               ("a." . "-")
                                               ("b." . "-"))))
+
+ ;; change the ellipsis to something more noticeable? 
+ (setq org-ellipsis "…")
  )
 
 ;; Do not write anything past this comment. This is where Emacs will
